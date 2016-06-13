@@ -1,1 +1,30 @@
-/*you fill this in*/
+.margin-top {
+  margin-top: 50px;
+}
+
+.wrapper {
+  border: 1pt solid #ddd;
+  padding: 30px;
+}
+
+.post {
+  padding: 20px 0;
+  border-bottom: 1pt solid #ddd;
+}
+
+.post img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.post .caption {
+  color: #555;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}

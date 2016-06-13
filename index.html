@@ -3,12 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Instamood</title>
-  <!-- TODO: Include Bootstrap -->
-  <!-- TODO: Link your stylesheet -->
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <!-- Javascripts -->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
   <script src="./script.js"></script>
 </head>
 <body>
-	<!-- put stuff here -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="wrapper">
+          <h1>Your Instagram mood is...</h1>
+          <h3 id="mood">calculating...</h3>
+          <div id="list">loading instagrams...</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
